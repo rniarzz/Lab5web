@@ -146,6 +146,224 @@ Persiapan membuat dokumen HTML dengan nama file **lab5_javascript.html** seperti
 </html>
 ```
 
+![Screenshot (336)](https://github.com/rniarzz/Lab5web/assets/115542704/ba4f3199-db38-4bce-b73b-8c0099e55e17)
 
+---
+
+#### Seleksi kondisi
+
+```html
+<html>
+  <head>
+    <title>contoh if-else</title>
+  </head>
+  <body>
+    <script language="javascript">
+      <!--
+      var nilai = prompt("nilai (0-100): ", 0);
+      var hasil = "";
+      if (nilai >= 60) hasil = "lulus";
+      else hasil = "tidak lulus";
+      document.write("hasil: " + hasil);
+      //-->
+    </script>
+  </body>
+</html>
+```
+
+![Screenshot (338)](https://github.com/rniarzz/Lab5web/assets/115542704/d96c0851-cc11-4486-b25c-3ec6d2434773)
+
+![Screenshot (339)](https://github.com/rniarzz/Lab5web/assets/115542704/1345a0dd-f7ef-47d5-a4fd-71d938844d96)
+
+![Screenshot (340)](https://github.com/rniarzz/Lab5web/assets/115542704/d11c3a17-0d1c-4d58-aed7-7e299fd78b71)
+
+![Screenshot (341)](https://github.com/rniarzz/Lab5web/assets/115542704/12dd305c-83e5-4ef9-bb2d-0266339a65d7)
+
+---
+
+#### Penggunaan operator switch untuk seleksi kondisi
+
+```html
+<html>
+    <head>
+        <title>contoh program javascript</title>
+        
+        <script language="javascript">
+            function test ()
+            {
+                val1=window.prompt("input nilai (1-5):")
+                switch (val1)
+                {
+                case "1" :
+                    document.write("bilangan satu")
+                    break
+                case "2" :
+                    document.write("bilangan dua")
+                    break
+                case "3" :
+                    document.write("bilangan tiga")
+                    break
+                case "4" :
+                    document.write("bilangan empat")
+                    break
+                case "5" :
+                    document.write("bilangan lima")
+                    break
+                default :
+                    document.write("bilangan lainnya")
+            }
+        }
+        </script>
+    </head>
+    <body>
+        <h3>contoh program javascript</h3>
+        <input type="button" name="button1" value="switch" onclick=test()>
+    </body>
+</html>
+```
+
+![Screenshot (343)](https://github.com/rniarzz/Lab5web/assets/115542704/681ff98a-82dd-4cf5-b8ac-34ecf9881358)
+
+![Screenshot (344)](https://github.com/rniarzz/Lab5web/assets/115542704/41f24a8c-479b-4198-9ea7-2d76ccff83af)
+
+![Screenshot (345)](https://github.com/rniarzz/Lab5web/assets/115542704/fb48aad7-218e-43ef-88a6-b2e81425df03)
+
+![Screenshot (346)](https://github.com/rniarzz/Lab5web/assets/115542704/e2730378-c0cd-42c2-bbe5-2f62463fdfe8)
+
+---
+
+## Pembuatan Form
+#### Form Input
+
+```html
+<html>
+    <head>
+        <script language="javascript">
+            function test () {
+                var val1=document.kirim.T1.value
+                if (val1%2==0)
+                    document.kirim.T2.value="bilangan genap"
+                else
+                    document.kirim.T2.value="bilangan ganjil"
+            }
+        </script>
+    </head>
+    <body>
+        <form method="POST" name="kirim">
+            <p>BIL <input type="text" name="T1" size="20">
+            MERUPAKAN BIL <input type="text" name="T2" size="20"></p>
+            <p><input type="button" value="TEBAK" name="B1" onclick=test()></p>
+        </form>
+    </body>
+</html>
+```
+
+![Screenshot (347)](https://github.com/rniarzz/Lab5web/assets/115542704/411df721-dc1f-4f83-9ddc-ae2aa21cd5c7)
+
+![Screenshot (348)](https://github.com/rniarzz/Lab5web/assets/115542704/47527992-0b9a-4083-bf93-10554f1a1c8a)
+
+---
+
+Form Button.
+
+```html
+<html>
+  <head>
+    <title>objek document</title>
+  </head>
+  <body>
+    <script language="javascript">
+      <!--
+      function ubahWarnaLB(warna) {
+        document.bgColor = warna;
+      }
+      function ubahWarnaLD(warna) {
+        document.fgColor = warna;
+      }
+      //-->
+    </script>
+
+    <h1>tes</h1>
+    <form>
+      <input
+        type="button"
+        value="Latar Belakang Hijau"
+        onclick="ubahWarnaLB('GREEN')"
+      />
+      <input
+        type="button"
+        value="Latar Belakang Putih"
+        onclick="ubahWarnaLB('WHITE')"
+      />
+      <input
+        type="button"
+        value="Teks Kuning"
+        onclick="ubahWarnaLD('YELLOW')"
+      />
+      <input type="button" value="Teks Biru" onclick="ubahWarnaLD('BLUE')" />
+    </form>
+    <script language="javascript">
+      <!--
+      document.write("Dimodifikasi terakhir pada " + document.lastModified);
+      //-->
+    </script>
+  </body>
+</html>
+```
+
+![Screenshot (349)](https://github.com/rniarzz/Lab5web/assets/115542704/4c6beb55-d4a7-4bdb-b74b-3864dec06d2a)
+
+---
+
+## HTML DOM
+#### Pilihan menggunakan checkBox dengan perhitungan otomatis
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daftar Menu</title>
+    <script>
+      function hitung(ele) {
+        var total = document.getElementById("total").value;
+        total = total ? parseInt(total) : 0;
+        var harga = 0;
+
+        if (ele.checked) {
+          harga = ele.value;
+          total += parseInt(harga);
+        } else {
+          harga = ele.value;
+          if (total > 0) total -= parseInt(harga);
+        }
+        document.getElementById("total").value = total;
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Daftar Menu Makanan</h1>
+    <label
+      ><input type="checkbox" value="5000" id="menu1" onclick="hitung(this);" />
+      Ayam Goreng Rp. 5000</label
+    ><br />
+    <label
+      ><input type="checkbox" value="500" id="menu2" onclick="hitung(this);" />
+      Tempe Goreng Rp. 500</label
+    ><br />
+    <label
+      ><input type="checkbox" value="2500" id="menu3" onclick="hitung(this);" />
+      Telur Dadar Rp. 2.500</label
+    ><br />
+    <strong>Total Bayar: Rp. <input id="total" type="text" /></strong>
+  </body>
+</html>
+```
+
+![Screenshot (350)](https://github.com/rniarzz/Lab5web/assets/115542704/095c0ab9-503b-48bf-91d5-d3d9a8aa5eee)
+
+---
 
 
