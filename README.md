@@ -52,7 +52,7 @@ Persiapan membuat dokumen HTML dengan nama file **lab5_javascript.html** seperti
 
 ---
 
-### Pemakaian method dalam objek
+#### Pemakaian method dalam objek
 
 ```html
 <html>
@@ -75,7 +75,7 @@ Persiapan membuat dokumen HTML dengan nama file **lab5_javascript.html** seperti
 
 ---
 
-### Pemakaian Prompt
+#### Pemakaian Prompt
 
 ```html
 <html>
