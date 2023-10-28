@@ -96,3 +96,56 @@ Persiapan membuat dokumen HTML dengan nama file **lab5_javascript.html** seperti
 
 ---
 
+#### Pembuatan fungsi dan cara pemanggilannya
+
+```html
+<html>
+    <head>
+        <title>contoh program javascript</title>
+        <script language = "javascript">
+            function pesan(){
+            alert ("memanggil javascript lewat lewat body onload")
+            }
+        </script>
+    </head>
+    <body onload=pesan()>
+    </body>
+</html>
+```
+
+![Screenshot (352)](https://github.com/rniarzz/Lab5web/assets/115542704/e15e3f29-4298-4517-a982-9798b5d8add7)
+
+---
+
+## Dasar Pemrograman Di Javascript
+#### Operasi dasar aritmatika
+
+```html
+<html>
+  <head>
+    <title>contoh program javascript</title>
+    <script language="javascript">
+      function test(val1, val2) {
+        document.write("<br>" + "perkalian : val1*val2 " + "<br>");
+        document.write(val1 * val2);
+        document.write("<br>" + "pembagian : val1/val2 " + "<br>");
+        document.write(val1 / val2);
+        document.write("<br>" + "penjumlahan : val1+val2 " + "<br>");
+        document.write(val1 + val2);
+        document.write("<br>" + "pengurangan : val1-val2 " + "<br>");
+        document.write(val1 - val2);
+        document.write("<br>" + "modulus : val1%val2 " + "<br>");
+        document.write(val1 % val2);
+      }
+    </script>
+  </head>
+  <body>
+    <h3>contoh program javascript</h3>
+    <input type="button" name="button1" value="aritmetic" onclick="test(9,4)" />
+  </body>
+</html>
+```
+
+
+
+
