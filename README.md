@@ -31,7 +31,7 @@ Persiapan membuat dokumen HTML dengan nama file **lab5_javascript.html** seperti
 ---
 
 ## Javascrip Dasar
-### Pemakaian Alert sebagai property window.
+#### Pemakaian Alert sebagai property window.
 
 ```html
 <html>
