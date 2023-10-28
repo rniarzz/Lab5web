@@ -1,5 +1,3 @@
-![Screenshot (330)](https://github.com/rniarzz/Lab5web/assets/115542704/96830545-421c-45cb-a0d0-fddd2eef8012)<h1 <p align="center"><b>Praktikum 5</b></p></h1> 
-
 **Nama: Rini Ariza**
 
 **NIM: 312210337**
