@@ -1,3 +1,5 @@
+<h1 <p align="center"><b>Praktikum 5</b></p></h1> 
+
 **Nama: Rini Ariza**
 
 **NIM: 312210337**
@@ -175,6 +177,8 @@ Persiapan membuat dokumen HTML dengan nama file **lab5_javascript.html** seperti
 
 ![Screenshot (339)](https://github.com/rniarzz/Lab5web/assets/115542704/1345a0dd-f7ef-47d5-a4fd-71d938844d96)
 
+---
+
 ![Screenshot (340)](https://github.com/rniarzz/Lab5web/assets/115542704/d11c3a17-0d1c-4d58-aed7-7e299fd78b71)
 
 ![Screenshot (341)](https://github.com/rniarzz/Lab5web/assets/115542704/12dd305c-83e5-4ef9-bb2d-0266339a65d7)
@@ -225,6 +229,8 @@ Persiapan membuat dokumen HTML dengan nama file **lab5_javascript.html** seperti
 ![Screenshot (343)](https://github.com/rniarzz/Lab5web/assets/115542704/681ff98a-82dd-4cf5-b8ac-34ecf9881358)
 
 ![Screenshot (344)](https://github.com/rniarzz/Lab5web/assets/115542704/41f24a8c-479b-4198-9ea7-2d76ccff83af)
+
+---
 
 ![Screenshot (345)](https://github.com/rniarzz/Lab5web/assets/115542704/fb48aad7-218e-43ef-88a6-b2e81425df03)
 
